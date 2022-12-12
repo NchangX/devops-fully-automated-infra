@@ -75,6 +75,7 @@ resource "aws_instance" "web_server" {
   ebs_optimized = true
   root_block_device {
   encrypted     = true
+  #good job
   }
 
 }
